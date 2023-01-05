@@ -1,6 +1,5 @@
 /* omar changes */
 * {
-border: 0;
 margin: 0;
 padding: 0;
 }
@@ -8,16 +7,19 @@ padding: 0;
 
     position: sticky;
     top: 0;
-    text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
     background-color: whitesmoke;
+    margin: 5px;
+    border-radius:10px ;
+    padding-left: 10px ;
+    padding-right: 10px;
+    
 
 }
-
-.navbar li a {
-    color: #fff;
+.fa-facebook:before {
+    margin-right: 10px;
 }
 
 .navbar h1 {
@@ -37,9 +39,9 @@ padding: 0;
 a {
     float: right;
     font-size: 13px;
-    text-decoration: none;
     display: inline;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
     color: white;
     font-weight: normal;
@@ -48,7 +50,6 @@ a {
 .navbar ul li a {
     display: block;
     padding: 10px;
-    text-align: center;
     position: relative;
     right: auto;
     left: auto;
@@ -63,15 +64,16 @@ a {
 }
 i {
     color: #4267B2;
-    height: 19.5px;
-    width: 19.5px;
+    height: inherit;
+    width: inherit;
 }
 input {
     border-radius:  20px;
     border: wheat   ;
-    background-color: rgb(229, 228, 228);
+    background-color: rgb(231, 231, 231);
 
 }
+
 
 /* main */
 .layout {
