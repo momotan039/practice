@@ -14,7 +14,7 @@ section .body{
     text-align: center;
     
     /* margin: auto; */
-    background: rgb(218, 195, 195);
+    background: rgb(51, 48, 48);
 }
 ul{
     display: flex;
@@ -22,11 +22,12 @@ ul{
     list-style: none;
     text-align: center;
     padding: 0px 15px;
-    
+    background: rgb(51, 48, 48);
+    color: #fff;
 }
 
 img {
-    width: 60px;
+    width: 16%;
     height: 120px;
     border-radius: 8px;
     margin: 3px;
@@ -40,7 +41,7 @@ img {
 }
 
 .add-post{
-    /* margin: 10rem; */
+    
     width:30rem;
     height: 3rem;
     display: flex;
@@ -49,30 +50,31 @@ img {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin: 3rem auto;
+    margin: 1rem auto;
     
 }
 .add-post ul{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: fit-content;
+    
 }
-/* .add-post ul li{
+.add-post ul li{
     justify-content: space-between;
-    
-    
-} */
+}
 .add-post ul li img{
     width: 30px;
     height: 30px;
     border-radius: 50%;
     flex: 1;
+    
 }
 
 
 .add-post ul li input{
-    flex: 3;
+    width: 130%;
+    background: rgb(228, 228, 228);
 }
 
 .add-post ul li i{
@@ -82,17 +84,30 @@ img {
 .posts{
     display: flex;
     flex-direction: column;
-    background: red;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
+    background: rgb(72, 72, 72);
+    width: 70%;
+    /* justify-content: center;
+    align-items: center; */
     margin: auto;
+    border: #fff;
+    color: #fff;
+}
+
+.posts h4{
+    position: relative;
+    top:5px;
+    left: 20px;
 }
 .posts img{
-    width: 400px;
-    height: 200px;
+    width: 90%;
+    height: 30%;
     margin: auto;
     text-align: center;
+}
+
+.posts p{
+    margin: auto;
+    padding: 10px;
 }
 .layout{
     height: 100vh;
@@ -131,7 +146,7 @@ grid-row: 1/2;
 
 
 .layout .body{
-background-color: yellow;
+background-color: rgb(46, 46, 45);
 grid-column: 2/4;
 }
 
