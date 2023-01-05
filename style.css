@@ -41,5 +41,32 @@ grid-column: 2/4;
 
 
 .layout .right-side{
-background-color: blue;
+background-color: white;
+}
+
+.sidebar-ads{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.online{
+    display: flex;
+    flex-direction: row;
+}
+.online .person .p1{
+  margin-left: 50px;
+  margin-top: -40px;
+}
+.online .person .p2{
+    margin-left: 50px;
+    margin-top: -40px;
+  }
+  .online .person .p3{
+    margin-left: 50px;
+    margin-top: -35px;
+  }
+ 
+.online .person img {
+width: 40px;
+border-radius: 50%;
 }
